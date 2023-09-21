@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-bodybg;
+    @apply text-bodytext;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+
+/* .profile {
+    @apply min-w-[80%] rounded-full border-stone-800 border-4 m-auto;
+    image-rendering: pixelated;
+} */
+
+.info-bar {
+    @apply flex flex-row p-4 w-screen grow sticky left-0 md:p-8 items-center;
+    @apply text-headertext bg-headerbg;
+}
+
+.main-content {
+    @apply basis-full p-8 flex-col md:basis-3/4 md:p-16 text-xl;
+}
+
+.section-title {
+    @apply text-3xl text-title py-8;
+}
+
+.section {
+
+}
+
+.paper {
+    @apply mb-16;
+}
+
+.paper-title {
+    @apply text-2xl font-bold ;
+}
+.paper-byline {
+    @apply mt-3 ml-3;
+}
+
+.paper-coauthors {
+    @apply text-xl italic mr-3;
+}
+
+.paper-link {
+    @apply pt-8;
+}
+
+.paper-link-empty {
+    @apply pt-8 text-gray italic;
+}
+
+.paper-year { 
+    @apply italic mr-1;
+}
+
+.paper-blurb {
+    @apply p-2 m-2 text-base bg-blurb rounded-md md:p-4 md:m-2;
+}
+
+svg {
+    @apply fill-headertext w-10 h-10 inline-block mx-1;
+}
+
+a {
+    @apply text-link font-bold;
+}

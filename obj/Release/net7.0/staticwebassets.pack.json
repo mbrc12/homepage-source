@@ -1,0 +1,89 @@
+{
+  "Files": [
+    {
+      "Id": "/home/subwave/dev/homepage/wwwroot/assets/content/About.md",
+      "PackagePath": "staticwebassets/assets/content/About.md"
+    },
+    {
+      "Id": "/home/subwave/dev/homepage/wwwroot/assets/content/Extra.md",
+      "PackagePath": "staticwebassets/assets/content/Extra.md"
+    },
+    {
+      "Id": "/home/subwave/dev/homepage/wwwroot/assets/content/Papers/blurbs/area-tilted-le.md",
+      "PackagePath": "staticwebassets/assets/content/Papers/blurbs/area-tilted-le.md"
+    },
+    {
+      "Id": "/home/subwave/dev/homepage/wwwroot/assets/content/Papers/blurbs/regular-graphs.md",
+      "PackagePath": "staticwebassets/assets/content/Papers/blurbs/regular-graphs.md"
+    },
+    {
+      "Id": "/home/subwave/dev/homepage/wwwroot/assets/content/Papers/index.json",
+      "PackagePath": "staticwebassets/assets/content/Papers/index.json"
+    },
+    {
+      "Id": "/home/subwave/dev/homepage/wwwroot/assets/content/Topics/index.json",
+      "PackagePath": "staticwebassets/assets/content/Topics/index.json"
+    },
+    {
+      "Id": "/home/subwave/dev/homepage/wwwroot/assets/content/Topics/random-graphs.md",
+      "PackagePath": "staticwebassets/assets/content/Topics/random-graphs.md"
+    },
+    {
+      "Id": "/home/subwave/dev/homepage/wwwroot/assets/content/Topics/spin-systems.md",
+      "PackagePath": "staticwebassets/assets/content/Topics/spin-systems.md"
+    },
+    {
+      "Id": "/home/subwave/dev/homepage/wwwroot/assets/docs/Mriganka_AcademicCV.pdf",
+      "PackagePath": "staticwebassets/assets/docs/Mriganka_AcademicCV.pdf"
+    },
+    {
+      "Id": "/home/subwave/dev/homepage/wwwroot/assets/docs/Mriganka_IndustrialCV.pdf",
+      "PackagePath": "staticwebassets/assets/docs/Mriganka_IndustrialCV.pdf"
+    },
+    {
+      "Id": "/home/subwave/dev/homepage/wwwroot/assets/images/cv.svg",
+      "PackagePath": "staticwebassets/assets/images/cv.svg"
+    },
+    {
+      "Id": "/home/subwave/dev/homepage/wwwroot/assets/images/cv2.svg",
+      "PackagePath": "staticwebassets/assets/images/cv2.svg"
+    },
+    {
+      "Id": "/home/subwave/dev/homepage/wwwroot/assets/images/email.svg",
+      "PackagePath": "staticwebassets/assets/images/email.svg"
+    },
+    {
+      "Id": "/home/subwave/dev/homepage/wwwroot/assets/images/github.svg",
+      "PackagePath": "staticwebassets/assets/images/github.svg"
+    },
+    {
+      "Id": "/home/subwave/dev/homepage/wwwroot/assets/images/sky-2.png",
+      "PackagePath": "staticwebassets/assets/images/sky-2.png"
+    },
+    {
+      "Id": "/home/subwave/dev/homepage/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
+    },
+    {
+      "Id": "/home/subwave/dev/homepage/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "obj/Release/net7.0/staticwebassets/msbuild.build.homepage.props",
+      "PackagePath": "build\\homepage.props"
+    },
+    {
+      "Id": "obj/Release/net7.0/staticwebassets/msbuild.buildMultiTargeting.homepage.props",
+      "PackagePath": "buildMultiTargeting\\homepage.props"
+    },
+    {
+      "Id": "obj/Release/net7.0/staticwebassets/msbuild.buildTransitive.homepage.props",
+      "PackagePath": "buildTransitive\\homepage.props"
+    },
+    {
+      "Id": "obj/Release/net7.0/staticwebassets/msbuild.homepage.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,14 @@
+[{
+    "Title": "Universality in prelimiting tail behavior for regular subgraph counts in the Poisson regime",
+    "With": [],
+    "Year": 2023,
+    "Link": "https://arxiv.org/abs/2304.01162",
+    "Blurb": "regular-graphs.md"
+},
+{
+    "Title": "Characterizing Gibbs states for area-tilted Brownian lines",
+    "Year": 2023,
+    "With": ["Pietro Caputo", "Shirshendu Ganguly"],
+    "Blurb": "area-tilted-le.md"
+}
+]

@@ -1,0 +1,9 @@
+<div class="paper">
+    <div class="paper-title">@Item.Title</div>
+    <div class="paper-blurb">@Item.Blurb</div>
+</div>
+
+@code {
+    [Parameter]
+    public Util.Topic Item { get; set; } = null!;
+}

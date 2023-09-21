@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/subwave/dev/home/homepage/homepage.csproj": {}
+    "/home/subwave/dev/homepage/homepage.csproj": {}
   },
   "projects": {
-    "/home/subwave/dev/home/homepage/homepage.csproj": {
+    "/home/subwave/dev/homepage/homepage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/subwave/dev/home/homepage/homepage.csproj",
+        "projectUniqueName": "/home/subwave/dev/homepage/homepage.csproj",
         "projectName": "homepage",
-        "projectPath": "/home/subwave/dev/home/homepage/homepage.csproj",
+        "projectPath": "/home/subwave/dev/homepage/homepage.csproj",
         "packagesPath": "/home/subwave/.nuget/packages/",
-        "outputPath": "/home/subwave/dev/home/homepage/obj/",
+        "outputPath": "/home/subwave/dev/homepage/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/subwave/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,20 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Faker.Net": {
+              "target": "Package",
+              "version": "[2.0.154, )"
+            },
+            "Markdig": {
+              "target": "Package",
+              "version": "[0.33.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

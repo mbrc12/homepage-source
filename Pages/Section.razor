@@ -1,0 +1,13 @@
+<div class = "section">
+    <div class = "section-title">@Title ⸻ </div>
+    @ChildContent 
+    <br><br>
+</div>
+
+@code {
+    [Parameter]
+    public string Title { get; set; } = "Unset!";
+    
+    [Parameter]
+    public RenderFragment ChildContent { get; set; } = null!;
+}

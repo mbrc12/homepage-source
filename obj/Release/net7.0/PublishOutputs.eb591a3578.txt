@@ -1,0 +1,13 @@
+/home/subwave/dev/homepage/bin/Release/net7.0/publish/homepage
+/home/subwave/dev/homepage/bin/Release/net7.0/publish/appsettings.Development.json
+/home/subwave/dev/homepage/bin/Release/net7.0/publish/appsettings.json
+/home/subwave/dev/homepage/bin/Release/net7.0/publish/package-lock.json
+/home/subwave/dev/homepage/bin/Release/net7.0/publish/package.json
+/home/subwave/dev/homepage/bin/Release/net7.0/publish/homepage.dll
+/home/subwave/dev/homepage/bin/Release/net7.0/publish/homepage.deps.json
+/home/subwave/dev/homepage/bin/Release/net7.0/publish/homepage.runtimeconfig.json
+/home/subwave/dev/homepage/bin/Release/net7.0/publish/homepage.pdb
+/home/subwave/dev/homepage/bin/Release/net7.0/publish/Faker.Net.6.0.dll
+/home/subwave/dev/homepage/bin/Release/net7.0/publish/Markdig.dll
+/home/subwave/dev/homepage/bin/Release/net7.0/publish/Newtonsoft.Json.dll
+/home/subwave/dev/homepage/bin/Release/net7.0/publish/de-DE/Faker.Net.6.0.resources.dll

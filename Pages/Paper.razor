@@ -1,0 +1,22 @@
+<div class="paper">
+    <div class="paper-title">@Item.Title</div>
+    <div class="paper-byline">
+        <span class = "paper-year">@Item.Year,</span>
+        <span class="paper-coauthors">@Item.With</span>
+
+        @if (@Item.Link is not null)
+        {
+            <a class="paper-link" href="@Item.Link">[link to paper]</a>
+        }
+        else
+        {
+            <span class="paper-link-empty">[coming soon]</span>
+        }
+    </div>
+    <div class="paper-blurb">@Item.Blurb</div>
+</div>
+
+@code {
+    [Parameter]
+    public Util.Paper Item { get; set; } = null!;
+}

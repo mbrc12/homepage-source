@@ -1,9 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "WcPvozHkyu2N4X0xDxP6o9YTtPQMJHyW1/Vxlq2U+gIuZ8dGnPepTgTS4ukqrTjtW9c2s2TXzU5ebZG3WqigLw==",
+  "dgSpecHash": "u6HriqYgP4nAIUh2cnNwesE1KI3aaqDTrMSN5i7F8BqmIsV7ywZIJeWTOumNVbhMNwmB/JS50O6XwS2EYZLhcg==",
   "success": true,
-  "projectFilePath": "/home/subwave/dev/home/homepage/homepage.csproj",
+  "projectFilePath": "/home/subwave/dev/homepage/homepage.csproj",
   "expectedPackageFiles": [
+    "/home/subwave/.nuget/packages/faker.net/2.0.154/faker.net.2.0.154.nupkg.sha512",
+    "/home/subwave/.nuget/packages/markdig/0.33.0/markdig.0.33.0.nupkg.sha512",
+    "/home/subwave/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/subwave/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/home/subwave/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/home/subwave/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.11/microsoft.aspnetcore.app.ref.7.0.11.nupkg.sha512"
   ],
   "logs": []
