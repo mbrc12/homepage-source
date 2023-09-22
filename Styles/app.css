@@ -23,11 +23,11 @@ body {
 }
 
 .section-title {
-    @apply text-3xl text-title py-8;
+    @apply text-3xl text-title py-6;
 }
 
 .section {
-
+    @apply mb-8;
 }
 
 .paper {
@@ -38,7 +38,7 @@ body {
     @apply text-2xl font-bold ;
 }
 .paper-byline {
-    @apply mt-3 ml-3;
+    @apply mt-3;
 }
 
 .paper-coauthors {
@@ -58,7 +58,7 @@ body {
 }
 
 .paper-blurb {
-    @apply p-2 m-2 text-base bg-blurb rounded-md md:p-4 md:m-2;
+    @apply p-2 text-base bg-blurb rounded-md md:p-4 mt-4;
 }
 
 svg {

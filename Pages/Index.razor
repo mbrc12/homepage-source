@@ -5,7 +5,7 @@
 <div>
     <div class="info-bar">
         <div class="text-4xl text-left m-4 basis-full text-pink-200 md:basis-2/3">
-            &Mopf;riganka <br><span class="text-3xl">Basu Roy Chowdhury</span>
+            Mriganka <br><span class="text-3xl">Basu Roy Chowdhury</span>
             @* Visible only on smaller devices *@
             <div class="mr-0 ml-auto pt-8 md:hidden">
                 @foreach (var (url, svg) in Sites)
@@ -28,18 +28,22 @@
     <div class = "main-content">
         <Section Title="About">@About</Section>
 
-        <Section Title="Research Topics">
+        @* <Section Title="Research Topics">
             @foreach(var topic in @GetTopics())
             {
                 <Topic item="@topic"/>
             }
-        </Section>
+        </Section> *@
 
         <Section Title="Papers">
             @foreach(var paper in @GetPapers())
             {
                 <Paper item="@paper"/>
             }
+        </Section>
+
+        <Section Title="Teaching">
+            @Teaching
         </Section>
 
         <Section Title="Extras">@Extra</Section>

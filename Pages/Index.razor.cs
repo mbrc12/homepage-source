@@ -16,13 +16,14 @@ public partial class Index
         ("assets/docs/Mriganka_IndustrialCV.pdf", "cv.svg")
     };
 
-    public MarkupString About = new("");
-    public MarkupString Extra = new("");
+    public MarkupString About = Parse("About.md");
+    public MarkupString Extra = Parse("Extra.md");
+    public MarkupString Teaching = Parse("Teaching.md");
     
-    protected override void OnInitialized()
-    {
-
-        About = Parse("About.md");
-        Extra = Parse("Extra.md");
-    }
+    // protected override void OnInitialized()
+    // {
+    //     About = Parse("About.md");
+    //     Extra = Parse("Extra.md");
+    //     Teaching = Parse("Teaching.md");
+    // }
 }

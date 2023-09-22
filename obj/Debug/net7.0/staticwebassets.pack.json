@@ -1,38 +1,6 @@
 {
   "Files": [
     {
-      "Id": "/home/subwave/dev/homepage/wwwroot/assets/content/About.md",
-      "PackagePath": "staticwebassets/assets/content/About.md"
-    },
-    {
-      "Id": "/home/subwave/dev/homepage/wwwroot/assets/content/Extra.md",
-      "PackagePath": "staticwebassets/assets/content/Extra.md"
-    },
-    {
-      "Id": "/home/subwave/dev/homepage/wwwroot/assets/content/Papers/blurbs/area-tilted-le.md",
-      "PackagePath": "staticwebassets/assets/content/Papers/blurbs/area-tilted-le.md"
-    },
-    {
-      "Id": "/home/subwave/dev/homepage/wwwroot/assets/content/Papers/blurbs/regular-graphs.md",
-      "PackagePath": "staticwebassets/assets/content/Papers/blurbs/regular-graphs.md"
-    },
-    {
-      "Id": "/home/subwave/dev/homepage/wwwroot/assets/content/Papers/index.json",
-      "PackagePath": "staticwebassets/assets/content/Papers/index.json"
-    },
-    {
-      "Id": "/home/subwave/dev/homepage/wwwroot/assets/content/Topics/index.json",
-      "PackagePath": "staticwebassets/assets/content/Topics/index.json"
-    },
-    {
-      "Id": "/home/subwave/dev/homepage/wwwroot/assets/content/Topics/random-graphs.md",
-      "PackagePath": "staticwebassets/assets/content/Topics/random-graphs.md"
-    },
-    {
-      "Id": "/home/subwave/dev/homepage/wwwroot/assets/content/Topics/spin-systems.md",
-      "PackagePath": "staticwebassets/assets/content/Topics/spin-systems.md"
-    },
-    {
       "Id": "/home/subwave/dev/homepage/wwwroot/assets/docs/Mriganka_AcademicCV.pdf",
       "PackagePath": "staticwebassets/assets/docs/Mriganka_AcademicCV.pdf"
     },

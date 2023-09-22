@@ -34,3 +34,5 @@
 /home/subwave/dev/homepage/bin/Debug/net7.0/Faker.Net.6.0.dll
 /home/subwave/dev/homepage/bin/Debug/net7.0/de-DE/Faker.Net.6.0.resources.dll
 /home/subwave/dev/homepage/bin/Debug/net7.0/Newtonsoft.Json.dll
+/home/subwave/dev/homepage/bin/Debug/net7.0/Content/Papers/index.json
+/home/subwave/dev/homepage/bin/Debug/net7.0/Content/Topics/index.json

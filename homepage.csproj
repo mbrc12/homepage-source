@@ -12,4 +12,14 @@
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Watch Include="Content/**/*" Exclude="node_modules/**/*" />
+  </ItemGroup>
+
 </Project>
+
+
+<!-- appsettings.Development.json  Faker.Net.6.0.dll*  homepage.pdb                 package.json
+appsettings.json              homepage*           homepage.runtimeconfig.json  package-lock.json
+Content/                      homepage.deps.json  Markdig.dll*                 web.config
+de-DE/                        homepage.dll        Newtonsoft.Json.dll*         wwwroot/ -->

@@ -51,7 +51,7 @@ public class Util {
     }
 
     public static MarkupString Parse(string fileName) {
-        return ParseMD(Slurp($"wwwroot/assets/content/{fileName}")); 
+        return ParseMD(Slurp($"wwwroot/Content/{fileName}")); 
     }
 
     public static MarkupString GetSVG(string path) {
@@ -65,7 +65,7 @@ public class Util {
 
     public static Paper ParsePaper(PaperRaw pr)
     { 
-        var blurb = ParseMD(Slurp($"wwwroot/assets/content/Papers/blurbs/{pr.Blurb}"));
+        var blurb = ParseMD(Slurp($"wwwroot/Content/Papers/blurbs/{pr.Blurb}"));
         var with = "";
         var N = pr.With.Length;
         if (N == 1) {
@@ -90,20 +90,20 @@ public class Util {
 
     public static Paper[] GetPapers() 
     {
-        var json = Slurp("wwwroot/assets/content/Papers/index.json");
+        var json = Slurp("wwwroot/Content/Papers/index.json");
         var papers = JsonConvert.DeserializeObject<PaperRaw[]>(json)!;
         return papers.Select(p => ParsePaper(p)).ToArray();
     }
 
     public static Topic ParseTopic(TopicRaw tr)
     { 
-        var blurb = ParseMD(Slurp($"wwwroot/assets/content/Topics/{tr.Blurb}"));
+        var blurb = ParseMD(Slurp($"wwwroot/Content/Topics/{tr.Blurb}"));
         return new Topic { Title = tr.Title, Blurb = blurb };
     }
 
     public static Topic[] GetTopics()
     {
-        var json = Slurp("wwwroot/assets/content/Topics/index.json");
+        var json = Slurp("wwwroot/Content/Topics/index.json");
         var topics = JsonConvert.DeserializeObject<TopicRaw[]>(json)!;
         return topics.Select(p => ParseTopic(p)).ToArray();
     }
