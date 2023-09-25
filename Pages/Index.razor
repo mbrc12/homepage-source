@@ -36,6 +36,12 @@
         </Section> *@
 
         <Section Title="Papers">
+            <div class = "text-gray italic py-4">
+            For each paper below, you will find an associated description. 
+            It is intended to be an accessible explanation of the main goal of the work. 
+            Detailed abstracts will be found in the link to the paper.
+            </div>
+
             @foreach(var paper in @GetPapers())
             {
                 <Paper item="@paper"/>

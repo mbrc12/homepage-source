@@ -2,10 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body {
     @apply bg-bodybg;
     @apply text-bodytext;
     font-family: 'Inclusive Sans', sans-serif;
+    overflow-x: hidden;
 }
 
 /* .profile {
