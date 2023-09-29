@@ -12,8 +12,8 @@ public partial class Index
     public (string, string)[] Sites = new []{
         ("https://github.com/mbrc12", "github.svg"),
         ("mailto:mbrc12@gmail.com", "email.svg"),
-        ("~/assets/docs/Mriganka_AcademicCV.pdf", "cv.svg"),
-        ("~/assets/docs/Mriganka_IndustrialCV.pdf", "cv.svg")
+        ("/assets/docs/Mriganka_AcademicCV.pdf", "cv.svg"),
+        ("/assets/docs/Mriganka_IndustrialCV.pdf", "cv.svg")
     };
 
     public MarkupString About = Parse("About.md");
